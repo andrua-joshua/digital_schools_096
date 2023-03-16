@@ -1,0 +1,153 @@
+section{
+    border: 1px solid #6666;
+}
+#pp{
+    width: 100px;
+    height: 70px;
+}
+#board{
+    padding: 20px;
+}
+#stdName{
+    font-size: large;
+    font-weight: bold;
+}
+#nationality{
+    /**/
+    font-size: small;
+}
+#moredata{
+    text-align: center;
+    padding: 15px;
+}
+#heading{
+    padding: 20px;
+}
+#courses{
+    font-size: x-large;
+    font-weight: bold;
+}
+select{
+    border-radius: 10px;
+    opacity: 0.5;
+}
+.courselist{
+    /* padding: 30px; */
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 5px;
+}
+.course{
+    border: 1px solid #6666;
+    border-radius: 15px;
+    padding: 5%;
+    margin-top: 10px;
+}
+.header{
+    width:100%;
+}
+#ratio,#dots{
+    border-radius: 15px;
+    background-color: #6666;
+    opacity: 0.3;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+#dullNote,#attendence,#assignment,#startDate,#lastDate,.faintText{
+    color: #6666;
+    font-size: smaller;
+}
+#rdata{
+    font-weight: bold;
+}
+#number{
+    font-size: large;
+    color: black;
+}
+#reco{
+    align-self: center;
+    width: 100%;
+    size: 1px;
+    color: #6666;
+}
+#recoHeading{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+#digits{
+    margin-top: 10%;
+    border-radius: 10px;
+    background-color: #6666;
+}
+.recoImg{
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 1%;
+    width: 96%;
+    height: 200px;
+}
+.recos{
+    padding: 3%;
+}
+.Reco{
+    border-radius: 10px;
+    background-color:#a3caf1;
+}
+.descriptions{
+    padding:2%;
+}
+#scheduleHeading{
+    padding: 2%;
+}
+#prev,#nxt, #prevP,#nxtP{
+    border-radius: 15px;
+    border: 1px solid #6666; 
+}
+.tasks{
+    padding: 3%;
+}
+.task{
+    padding: 2%;
+    border-radius: 15px;
+    background-color: #e68fee66;
+}
+.taskHeading{
+    padding: 1%;
+}
+.time{
+    padding: 1%;
+    border-radius: 10px;
+    background-color: white;
+}
+.timedots{
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 10px;
+    background-color: white;
+    opacity: 0.4;
+}
+.mainText{
+    font-weight: bold;
+}
+#t2{
+    background-color: #8c92e966;
+}
+.rd{
+    width: 150px;
+    height: 100px;
+}
+.headIng,.nav-dV,.clist{
+    padding: 2%;
+}
+.subjectName{
+    text-align: center;
+}
+.tophead{
+    padding: 4%;
+}
+.liActive{
+    color: #c71616;
+}
+header{
+    /****/
+}

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <title>Students Reader</title>
+
+        <script src="/digital_schools/resources/libraries/jquery.js"></script>
+        <link rel="stylesheet" href="/digital_schools/resources/libraries/bootstrap.min.css"/>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.8.335/pdf.min.js"></script>
+
+        <script src="/digital_schools/scripts/library.js"></script>
+        <link rel="stylesheet" href="/digital_schools/styles/style.css"/>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul class="nav nav-tabs maintabs">
+                    <li ><a href="http://localhost/digital_schools/links/studentsDBD.html">Home</a></li>
+                    <li class="active"><a href="#">Libarary</a></li>
+                    <li><a href="">Leaders Board</a></li>
+                    <li><a href="#">Community</a></li>
+                </ul>
+            </nav>
+        </header>
+        <article class="row">
+            <section class="col-md-3 dashboard">
+                <div class="headIng">
+                    <center><img class="img-thumbnail rd" src="http://localhost/digital_schools/resources/images/StnMF.jpg"></center>
+                    <h4 class="subjectName">Course Units</h4>
+                </div>
+                <div class="nav-dV">
+                    
+                    <ul class="nav nav-tabs minortabs" style="align-content: center;">
+                        <li class="active" id="docs"><a href="#">Documents</a></li>
+                        <li class="" id="vids"><a href="#">Videos</a></li>
+                        <li class="" id="pprs"><a href="#">Past papers</a></li>
+                    </ul>
+                </div>
+                <div class="clist">
+                    <h5>FrameWorks</h5>
+                    <ul class="C_dtls" id="frameworks">
+                        <li class="liActive"><a href="#">Angualar js</a></li>
+                        <li><a href="#">React Js</a></li>
+                        <li><a href="#">Vue</a></li>
+                        <li><a href="#">Java SpringBoot</a></li>
+                        <li><a href="#">Flutter framework</a></li>
+                        <li><a href="#">Node Javascript</a></li>
+                    </ul>
+
+                    <h5>Programming Languages</h5>
+                    <ul class="C_dtls" id="proglangs">
+                        <li><a href="#">Java programming</a></li>
+                        <li><a href="#">Rust</a></li>
+                        <li><a href="#">Javascript</a></li>
+                        <li><a href="#">C++ programming</a></li>
+                        <li><a href="#">Python</a></li>
+                        <li><a href="#">Swift</a></li>
+                    </ul>
+
+                    <h5>Forex Trading</h5>
+                    <ul class="C_dtls" id="forex">
+                        <li><a href="#">A1 Trading</a></li>
+                        <li><a href="#">SMC trading</a></li>
+                        <li><a href="#">Price Action trading</a></li>
+                        <li><a href="#">Economic theory</a></li>
+                        <li><a href="#">Inflation and Interest Rates</a></li>
+                    </ul>
+                </div>
+                <hr id="reco">
+
+                <div class="recomendations">
+                    <div id="recoHeading">
+                        <h3 class="pull-left">Recomendation</h3>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="recos">
+                        <div class="Reco">
+                            <img class="img-rounded recoImg" src="http://localhost/digital_schools/resources/images/cover.png">
+                            <p class="descriptions">Some desciptions here</p>
+                        </div>
+
+                        <div class="Reco">
+                            <img class="img-rounded recoImg" src="http://localhost/digital_schools/resources/images/cool_sci-fi_ui.png">
+                            <p class="descriptions">Some desciptions here</p>
+                        </div>
+
+                        <div class="Reco">
+                            <img class="img-rounded recoImg" src="http://localhost/digital_schools/resources/images/crypto-forex_tradingAPIs.png">
+                            <p class="descriptions">Some desciptions here</p>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <section class="col-md-6">
+                <div class="tophead">
+                    <h4 class="pull-left">Angualar Js</h4>
+                    <div class="navigate pull-right">
+                        <p type="" id="prevP" class="btn btn-flat arrbtn">&lt;</p>
+                        <b id="pNum">1</b>
+                        <p type="" id="nxtP" class="btn btn-flat arrbtn">&gt;</p>
+                    </div>
+                    <div class="clearfix"></div>
+                    <hr>
+                </div>
+                <div id="infoDetails"></div>
+            </section>
+            <section class="col-md-3">
+                <div class="" id="scheduleHeading">
+                    <h4 class="hding pull-left">Today's Schedule</h4>
+                    <div class="naviiagate pull-right">
+                        <p type="" id="prev" class="btn btn-flat arrbtn">&lt;</p>
+                        <p type="" id="nxt" class="btn btn-flat arrbtn">&gt;</p>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <hr>
+                <div class="tasks">
+                    <div class="task" id="">
+                        <div class="taskHeading">
+                            <p class="time pull-left" id="">09:30-12:30</p>
+                            <p class="btn btn-flat timedots pull-right" id="">....</p>
+                            <div class="clearfix"></div>
+                        </div>
+                        <br>
+                        <div class="taskBody">
+                            <p class="faintText">some faint text here</p>
+                            <p class="mainText">The Upper-body workout</p>
+                        </div>
+                        <hr>
+                    </div>
+                    <hr>
+
+                    <div class="task" id="t2">
+                        <div class="taskHeading">
+                            <p class="time pull-left" id="">17:30-21:30</p>
+                            <p class="btn btn-flat timedots pull-right" id="">....</p>
+                            <div class="clearfix"></div>
+                        </div>
+                        <br>
+                        <div class="taskBody">
+                            <p class="faintText">some faint text here</p>
+                            <p class="mainText">The Lower-body workout. Never
+                                 break your rules and properties
+                            </p>
+                        </div>
+                        <hr>
+                    </div>
+                    <hr>
+
+                </div>
+            </section>
+        </article>
+        <footer></footer>
+    </body>
+</html>
